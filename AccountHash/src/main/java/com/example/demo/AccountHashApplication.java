@@ -17,8 +17,8 @@ public class AccountHashApplication {
 	am.storeAccount(dave);
 	am.storeAccount(jim);
 	
-	System.out.println(am.getAccount(dave.num6).toString());
-	System.out.println(am.getAccount(jim.num6).toString());
+	System.out.println(am.getAccount(dave.getAccountNumber()).toString());
+	System.out.println(am.getAccount(jim.getAccountNumber()).toString());
 	
 	}
 
